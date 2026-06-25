@@ -76,7 +76,7 @@ avg_power: AVG(i(v_vdd)*v(vdd!))=-2.01495e-007
 
 <a name="how-to-run"></a>
 ## How to Run
-1. **Clone the repository**: `git clone https://github.com/Harshitjoshi7/Schmitt-Trigger-Design.git`
+1. **Clone the repository**: `git clone https://github.com/AyushRajak07/CMOS-based-Schmitt-Triger.git`
 2. **Open the testbench**: Open `tb/schmitt_tb.sp` in **LTspice**.
 3. **Execute Simulation**: Click the **Run** (Running Man) icon.
 4. **View Results**:
