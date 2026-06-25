@@ -1,5 +1,5 @@
 # CMOS Schmitt Trigger Design and Characterization
-**Guided by: Siddharth Singh Parihar Sir**
+
 
 This repository contains the design, simulation, and characterization of a **CMOS Schmitt Trigger**. The design flow involves schematic capture and netlist generation in **Synopsys Custom Compiler**, followed by full electrical characterization in **LTspice**.
 
@@ -81,11 +81,8 @@ avg_power: AVG(i(v_vdd)*v(vdd!))=-2.01495e-007
    * **Hysteresis**: Right-click the X-axis of the plot and change the quantity from `time` to `V(vin_sig)`.
    * **Measurements**: Press **Ctrl + L** to see the power and threshold log.
 
-<a name="mentorship"></a>
-## Mentorship
-Special thanks to my guide for providing technical oversight and direction on this project:
-* **Siddharth Singh Parihar Sir**
+
 
 <a name="author"></a>
 ## Author
-* **Harshit Joshi** - [GitHub Profile](https://github.com/Harshitjoshi7)
+* **Ayush Rajak**
