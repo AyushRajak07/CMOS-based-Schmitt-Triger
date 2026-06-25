@@ -1,0 +1,42 @@
+Circuit: * LTspice Schmitt Trigger - Full Characterization
+
+WARNING: Less than two connections to node GND!.  This node is used by V_GND_FIX.
+Instance "m:1:8": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:8": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:1:7": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:7": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:1:6": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:6": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:1:11": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:11": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:1:10": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:10": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:1:9": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:1:9": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+vth_plus: v(vout_final)=0.525 AT 4.78357e-008
+
+Measurement "vth_minus" FAIL'ed
+vin_at_vth_plus: v(vin_sig)=1.05 at 1e-007
+vin_at_vth_minus: v(vin_sig)=0.105 at 2e-007
+avg_power: AVG(i(v_vdd)*v(vdd!))=-2.01495e-007 FROM 0 TO 2.5e-007
+
+
+Date: Wed Mar 04 09:15:47 2026
+Total elapsed time: 0.072 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2218
+traniter = 2205
+tranpoints = 1079
+accept = 1072
+rejected = 7
+matrix size = 11
+fillins = 0
+solver = Normal
+Matrix Compiler1: 414 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: off  [0.1]/0.1/0.1
+
