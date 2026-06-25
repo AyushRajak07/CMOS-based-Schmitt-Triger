@@ -49,18 +49,21 @@ The circuit was characterized using a triangle wave input to observe both rising
 
 ### 1. Transient Waveform (Time Domain)
 The transient analysis shows the output (`vout_final`) "snapping" high or low only after the input (`vin_sig`) crosses the defined thresholds. This confirms the time-domain stability of the design.
-![Transient Waveform](./images/transient_waveform.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/0f92cc85-a804-4e57-9b56-338ef35b31ef" />
+
 
 
 ### 2. Hysteresis Loop (VTC)
 The Voltage Transfer Characteristic (VTC) curve plotted as $V_{out}$ vs $V_{in}$ illustrates the distinct hysteresis window and noise margin.
-![Hysteresis Curve](./images/hysteresis_curve.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/babc3982-7968-4250-a171-b2f18acfecaf" />
+
 
 
 ### 3. Circuit Symbol and Setup
 | Logic Symbol | Simulation Testbench |
 | :---: | :---: |
-| ![Symbol](./images/symbol.png) | ![Testbench](./images/testbench.png) |
+|<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ef4b66da-1229-4585-988a-dcebfeb1ba5b" />
+| <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/f0015759-2c60-4b28-81c3-7a4db3c6e36f" />|
 
 ## Log and Error Analysis
 The following numerical data was extracted from the Spice Error Log after transient analysis:
